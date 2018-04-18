@@ -42,7 +42,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency("azure-core",              "~> 0.1.13")
   s.add_runtime_dependency("azure-storage-common",    "~> 1.0")
-  s.add_runtime_dependency("nokogiri",                "~> 1.6", ">= 1.6.8")
+  s.add_runtime_dependency("nokogiri",                "~> 1.5", ">= 1.5.11")
 
   s.add_development_dependency("dotenv",              "~> 2.0")
   s.add_development_dependency("minitest",            "~> 5")
