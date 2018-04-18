@@ -25,7 +25,7 @@
 #--------------------------------------------------------------------------
 require "date"
 
-require_relative "./lib/azure/storage/file/version"
+require "./lib/azure/storage/file/version.rb"
 
 Gem::Specification.new do |s|
   s.name        = "azure-storage-file"

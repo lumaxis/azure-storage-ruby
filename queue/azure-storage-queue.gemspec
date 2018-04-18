@@ -25,7 +25,7 @@
 #--------------------------------------------------------------------------
 require "date"
 
-require_relative "./lib/azure/storage/queue/version"
+require "./lib/azure/storage/queue/version.rb"
 
 Gem::Specification.new do |s|
   s.name        = "azure-storage-queue"

@@ -25,7 +25,7 @@
 #--------------------------------------------------------------------------
 require "date"
 
-require_relative "./lib/azure/storage/blob/version"
+require "./lib/azure/storage/blob/version.rb"
 
 Gem::Specification.new do |s|
   s.name        = "azure-storage-blob"
